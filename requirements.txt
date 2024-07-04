@@ -1,0 +1,8 @@
+# the following libraries are required for implementation of the pipeline
+Ollama # For getting llm and Embedding models locally
+pypdf # load PDF data
+DirectoryLoader #Load text data
+langchain # Data loading and database creation
+chromadb # Vector storage
+pytest # testing RAG Pipeline
+boto3
